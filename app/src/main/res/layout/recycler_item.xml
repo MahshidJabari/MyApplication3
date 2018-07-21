@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_Answer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layoutDirection="rtl">
+
+    <me.omidh.liquidradiobutton.LiquidRadioButton
+        android:id="@+id/rb_Answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Liquid Radio Button"
+        app:lrb_checkedColor="#00abb4"
+        app:lrb_explodeCount="3"
+        app:lrb_inAnimDuration="500"
+        app:lrb_innerCircleRadius="15dp"
+        app:lrb_outAnimDuration="500"
+        app:lrb_outterPadding="8dp"
+        app:lrb_strokeRadius="15dp"
+        app:lrb_strokeWidth="1dp"
+        app:lrb_unCheckedColor="@android:color/holo_red_light" />
+
+</LinearLayout>
